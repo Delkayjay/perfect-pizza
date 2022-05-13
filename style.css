@@ -1,0 +1,60 @@
+body {
+    background-color: #EDEDE9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pizza {
+ /* box model*/
+ border: 1px solid #48CAE4;
+ padding: 1em;
+ margin: 1em;
+ margin-left: 0.5em;
+ margin-bottom: 0.5em;
+ border-radius: 0.5em;
+
+/* use display: inline-block */
+/* width: 20em;
+   display: inline-block;
+   min-height: 30em;
+   */
+
+}
+
+.large_pizza {
+    background-color: #0077B6;
+    flex: auto;
+}
+
+.medium_pizza {
+    background-color: #84A59D;
+    flex: auto;
+}
+
+.small_pizza {
+    background-color: #48CAE4;
+    flex: auto;
+}
+
+.contact_details {
+    background-color: #F28482;
+}
+
+@media (min-width:760px) {
+   /* body {
+        background-color:chartreuse;
+    } */
+}
+
+@media (min-width:960px) {
+   /* body {
+        background-color:beige;
+    } */
+
+    .pizzas {
+        display: flex;
+    }
+}
